@@ -1,0 +1,22 @@
+
+.container_location{
+    border: 1px dotted red;
+    width: 94px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center ;
+    gap: 11px;
+}
+.img_location{
+    width: 18px;
+    height: 18px;
+    opacity: 1px;
+}
+.text_location{
+    border: 1px dotted white;
+    width: 68px;
+    height: 21px;
+    font-size: 18px;
+}

@@ -15,12 +15,10 @@ import BackgroundOfBigDay from './components/BackgroundOfBigDay/background'
 import LayoutBigDay from './components/LayoutBigDay/layout'
 import TodayOfBigDay from './components/TodayBigDay/today'
 import ShowerBigDay from './components/ShowerBigDay/shower'
+import LocationOfBigday from './components/LocationOfBigDay/location'
 import './App.css'
 
-
-
 function App() {
-  
   return (
     <>
      {/* Barra lateral izquierda */}
@@ -76,7 +74,6 @@ function App() {
     {/* lo más destacado de hoy */}
     <CardHightlights
     />
-
     <DegreesCelsius
     degrees={'C°'} 
     isActive={true}
@@ -96,7 +93,7 @@ function App() {
 
     <DayOfBigDay
     img={img_day}/>
-
+    
     <BackgroundOfBigDay
     background={img_background}
     />
@@ -105,6 +102,10 @@ function App() {
     <TodayOfBigDay/>
     
     <ShowerBigDay/>
+
+    <LocationOfBigday
+    location={img_background} />
+
     </>
   )
 }
