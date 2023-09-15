@@ -1,5 +1,5 @@
 .container_layout{
-    border: 1px dotted pink;
+  /*   border: 1px dotted pink; */
     width: 202px;
     height: 169px;
     display: flex;

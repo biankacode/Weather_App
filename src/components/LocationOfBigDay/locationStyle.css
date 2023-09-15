@@ -1,6 +1,6 @@
 
 .container_location{
-    border: 1px dotted red;
+   /*  border: 1px dotted red; */
     width: 94px;
     height: 24px;
     display: flex;
@@ -13,10 +13,12 @@
     width: 18px;
     height: 18px;
     opacity: 1px;
+    opacity: 25%;
 }
 .text_location{
-    border: 1px dotted white;
+/*     border: 1px dotted white; */
     width: 68px;
     height: 21px;
     font-size: 18px;
+    color: rgba(136, 134, 157, 1);
 }

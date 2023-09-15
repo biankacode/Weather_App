@@ -1,22 +1,24 @@
+/* eslint-disable react/jsx-no-undef */
 
 
-import watchImage from './assets/img/shower.png'
-import img from './assets/img/outline_my_location_white_36dp.png'
+/* import watchImage from './assets/img/shower.png'
+
 import img_day from './assets/img/shower.png'
-import img_background from './assets/img/Cloud-background.png'
+
 import CardDays from './components/CardDays/CardDays'
 import CardHightlights from './components/CardHightlights/CardHightlights'
 import DegreesCelsius from './components/CardDegreesCelsius/degreesCelsius'
-import Location from './components/SearchLocation/location'
-import SearchForPlace from './components/SearchPlace/searchPlace'
-import BigDay from './components/BigDay/bigDay'
-import DayOfBigDay from './components/DayOFBigDay/day'
+
+
+
+/*  import DayOfBigDay from './components/DayOFBigDay/day'
 import BackgroundOfBigDay from './components/BackgroundOfBigDay/background'
 import LayoutBigDay from './components/LayoutBigDay/layout'
 import TodayOfBigDay from './components/TodayBigDay/today'
 import ShowerBigDay from './components/ShowerBigDay/shower'
-import LocationOfBigday from './components/LocationOfBigDay/location'
+import LocationOfBigday from './components/LocationOfBigDay/location'  */
 import './App.css'
+import BigDay from './components/BigDay/bigDay'
 
 function App() {
   return (
@@ -28,7 +30,7 @@ function App() {
 {/*     <SearchForPlace/> */}
 
     {/* díasde la semana */}
-    <CardDays
+  {/*   <CardDays
     day= {'Lunes'}
     weather={watchImage}
     max={20}
@@ -69,10 +71,10 @@ function App() {
     weather={watchImage}
     max={20}
     min={10}
-    /> 
+    />  */}
 
     {/* lo más destacado de hoy */}
-    <CardHightlights
+    {/* <CardHightlights
     />
     <DegreesCelsius
     degrees={'C°'} 
@@ -84,27 +86,28 @@ function App() {
     />
 
     <Location
-    img={img}
+    
     />
 
-    <SearchForPlace/>
+    <SearchForPlace/> */}
    
+  
     <BigDay/>
 
-    <DayOfBigDay
+   {/*  <DayOfBigDay
     img={img_day}/>
     
     <BackgroundOfBigDay
     background={img_background}
     />
     <LayoutBigDay/>
+ 
+    <ShowerBigDay/> 
 
-    <TodayOfBigDay/>
-    
-    <ShowerBigDay/>
+    <TodayOfBigDay/> 
 
     <LocationOfBigday
-    location={img_background} />
+    location={img_background} /> */}
 
     </>
   )

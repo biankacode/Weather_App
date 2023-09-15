@@ -5,6 +5,7 @@ height: 21px;
 display: flex;
 flex-direction: row;
 justify-content: center;
+align-items: center;
 gap: 8px;
 
 }
@@ -14,10 +15,14 @@ gap: 8px;
    color: rgba(136, 134, 157, 1);
 }
 .punto{
-    border: 1px dotted yellow;
+   width: 5px;
+   height: 5px;
+   background-color:rgba(136, 134, 157, 1);
+   border-radius: 50%;
 }
 .fecha_today{
- /*    border: 1px dotted red; */
     display: flex;
     justify-content: center;
+    color: rgba(136, 134, 157, 1);
+  
 }
