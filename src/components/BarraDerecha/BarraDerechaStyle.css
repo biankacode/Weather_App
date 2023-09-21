@@ -1,0 +1,33 @@
+
+.container_principal{
+   /*  border: 1px dotted yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+}
+
+.degrees{
+  /*  border: 1px dotted white; */
+    width: 981px;
+    height: 102px;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    padding: 62px 718px 61px 701px;
+    
+
+}
+.container_superior{
+   /*  border: 1px dotted red; */
+    width: 981px;
+    height: 100vh;
+    left: 459px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}

@@ -1,3 +1,10 @@
 body{
     background-color: #100E1D;
 }
+.contianer-padre{
+    display: flex;
+    flex-direction: row;
+}
+.texto{
+    border: 1px dotted red;
+}

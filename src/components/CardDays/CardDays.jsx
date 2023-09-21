@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './CardDays.css'
 
 function CardDays ({day, weather, max, min}) {
