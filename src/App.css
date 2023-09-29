@@ -1,10 +1,24 @@
 body{
-    background-color: #100E1D;
+  /*   border: 1px dotted white; */
+    background-color: #100E1D
 }
 .contianer-padre{
+/*     border: 1px dotted lightcyan; */
+    width: 100%;
+
+    max-width: 1200px;
+   /*  height: 100vh; */
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
+    padding: 10px;
+
+
 }
-.texto{
-    border: 1px dotted red;
+
+.barra-izquierda{
+    
+   /*display: flex;
+    flex-direction: column;
+    justify-content: center; */
 }

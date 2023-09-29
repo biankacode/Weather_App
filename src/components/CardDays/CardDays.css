@@ -1,7 +1,9 @@
 .cardDay_container{
     position: relative;
     /* border: 1px dotted red; */
-    width: 120px;
+    width: 100%;
+    max-width: 160px;
+    min-width: 130px;
     height: 177px;
     display: flex;
     flex-direction: column;

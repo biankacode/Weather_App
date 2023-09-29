@@ -1,7 +1,9 @@
 .container_clasHeight{
 /*     border: 1px dotted white; */
-    width: 328px;
-    height: 204px;
+    width: 100%;
+    max-width: 380px;
+    min-width: 180px;
+    max-height: 204px;
     display: flex;
     flex-direction: column;
     padding: 16px ;
@@ -10,6 +12,7 @@
     font-family: 'Raleway', sans-serif;
     size: 16px;
     background-color: #1E213A;
+    color: white;
 }
 .title_CardHight{
    /*  border: 1px dotted red; */
@@ -59,8 +62,8 @@
         width: 17.7px;
         height: 17.7px;
         transform:rotate(215deg);
-        
     }
+
 .wind_container{
   /*   border: 1px dotted red; */
     display: flex;
@@ -69,6 +72,7 @@
     align-items: center;
     gap: 5.71px;
 }
+
 .wsw{
     /* border: 1px dotted greenyellow; */
     font-size: 14px;
@@ -76,5 +80,4 @@
     line-height: 16px;
     letter-spacing: 0em;
     text-align: left;
-
 }

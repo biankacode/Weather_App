@@ -1,6 +1,11 @@
 .container_bigDay{
+/*     border: 1px dotted greenyellow; */
+    padding: 10px;
+    border-radius: 10px;
     position: relative;
-    width:459px ; 
+    width: 100%;
+    max-width:400px;
+    min-width: 320px;
     height:100vh;
     background-color: rgba(30, 33, 58, 1);
     display: flex;
@@ -23,6 +28,7 @@
 .nubes_background{
     position: absolute;
     width: 100%;
+    
     top: 10%;
     opacity: 20%;
 }

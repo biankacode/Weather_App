@@ -24,7 +24,6 @@ import location from '../LocationOfBigDay/location'
 
 function BigDay(){
    return(
-      
          <div className='container_bigDay'>
             <div className='container_buttons'>
                   <SearchForPlace/>
