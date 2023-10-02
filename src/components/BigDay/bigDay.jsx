@@ -14,10 +14,6 @@ import img_location from '../../assets/img/outline_my_location_white_36dp.png'
 import img_day from '../../assets/img/shower.png'
 import nubes_background from '../../assets/img/Cloud-background.png'
 
-
-
-
-
 //Aqui importamos los estilos
 import './bigDayStyle.css'
 import location from '../LocationOfBigDay/location'
@@ -27,8 +23,7 @@ function BigDay(){
          <div className='container_bigDay'>
             <div className='container_buttons'>
                   <SearchForPlace/>
-                  <Location img={img_location}/>
-                  
+                  <Location img={img_location}/>  
             </div>  
             <img className='nubes_background' src={nubes_background} alt="" />
             <DayOfBigDay img={img_day}/>
@@ -36,7 +31,6 @@ function BigDay(){
             <ShowerBigDay/>
             <TodayOfBigDay/>
             <LocationOfBigday location={location}/>
-          
          </div>    
         
    )

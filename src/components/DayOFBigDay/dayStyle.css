@@ -1,5 +1,6 @@
 .img_day{
-    width: 202px;
-    height: 234px;
-
+    border: 1px dotted red;
+    width: 100%;
+    max-width: 180px;
+    height: auto;
 }

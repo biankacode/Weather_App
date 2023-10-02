@@ -1,7 +1,7 @@
 .container_layout{
-  /*   border: 1px dotted pink; */
-    width: 202px;
-    height: 169px;
+    border: 1px dotted pink;
+    /* width: 202px;
+    height: 169px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@
     font-family: 'Raleway', sans-serif;
     color:rgba(231, 231, 235, 1);
     font-weight: 500;
-    font-size: 144px;
+    font-size: 116px;
 }
 .text_layout{
     font-family: 'Raleway', sans-serif;

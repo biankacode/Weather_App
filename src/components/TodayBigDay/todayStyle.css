@@ -1,7 +1,9 @@
 .container_today{
-/* border: 1px dotted white; */
-width: 194px;
-height: 21px;
+border: 1px dotted white;
+position:absolute;
+bottom: 88px;
+width: 100%;
+max-width: 194px;
 display: flex;
 flex-direction: row;
 justify-content: center;
