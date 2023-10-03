@@ -2,7 +2,7 @@
 /*     border: 1px dotted white; */
     width: 100%;
     max-width: 380px;
-    min-width: 180px;
+    min-width: 160px;
     max-height: 204px;
     display: flex;
     flex-direction: column;
@@ -81,3 +81,4 @@
     letter-spacing: 0em;
     text-align: left;
 }
+

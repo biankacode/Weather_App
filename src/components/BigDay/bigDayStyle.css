@@ -1,5 +1,5 @@
 .container_bigDay{
-/*     border: 1px dotted greenyellow; */
+   border: 1px dotted greenyellow;
    
     border-radius: 10px;
     position: relative;
@@ -15,6 +15,7 @@
     padding: 24px 16px 24px 16px;
     
 }
+   
 .container_buttons{
     border: 1px dotted yellow;
     width: 100%;
@@ -32,4 +33,14 @@
     
     top: 10%;
     opacity: 20%;
+}
+
+@media (max-width:768px) {
+    .container_bigDay {
+        width: 100%;
+        max-width: 700px;
+       /*  max-width:620px;
+        min-width: 320px; */
+        height: 100vh;
+    }
 }
