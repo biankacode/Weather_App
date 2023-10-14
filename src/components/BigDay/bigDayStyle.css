@@ -39,6 +39,7 @@
     .container_bigDay {
         width: 100%;
         max-width: 700px;
+        min-width: 360px;
        /*  max-width:620px;
         min-width: 320px; */
         height: 100vh;
