@@ -18,7 +18,8 @@ import nubes_background from '../../assets/img/Cloud-background.png'
 import './bigDayStyle.css'
 import location from '../LocationOfBigDay/location'
 
-function BigDay(){
+function BigDay({clima}){
+      console.log('Clima actual', clima)
    return(
          <div className='container_bigDay'>
             <div className='container_buttons'>
@@ -27,10 +28,11 @@ function BigDay(){
             </div>  
             <img className='nubes_background' src={nubes_background} alt="" />
             <DayOfBigDay img={img_day}/>
-            <LayoutBigDay/>
-            <ShowerBigDay/>
+            <LayoutBigDay temperatura={clima?.main?.temp}/>
+            <ShowerBigDay esatdo_clima={clima?.weather?.[0]?.main} />
             <TodayOfBigDay/>
-            <LocationOfBigday location={location}/>
+            <LocationOfBigday lugar={clima?.name} location={location}/>
+            {/* lugar(descripcion de lo que quiero)={clima(padre el cual contiene los datos.name(direccion exacta de lo que busco))} */}
          </div>    
         
    )
